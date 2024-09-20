@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_HAZMAT_WORKFLOW_HANDLER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Hazmat: Handle Workflow Responses</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PICTOGRAM_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get specific chunk data context from Pictogram embeddings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PRODUCT_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Perform Vector Search on Products to retrieve product ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SDS_CHUNK_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get specific chunk data context from SDS embeddings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_WSG_CHUNK_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get specific chunk data context from WSG embeddings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>WF_FUNC_CALLING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workflow to demonstrate Function Calling within SAP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>WF_GET_PICTOGRAM_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workflow to demonstrate search for images</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>WF_GET_SDS_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workflow to demonstrate search for SDS content</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>WF_GET_WSG_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workflow to demonstrate search for WSG content</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

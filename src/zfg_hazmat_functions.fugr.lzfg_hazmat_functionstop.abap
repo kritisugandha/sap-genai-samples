@@ -1,0 +1,3 @@
+FUNCTION-POOL ZFG_HAZMAT_FUNCTIONS.         "MESSAGE-ID ..
+
+* INCLUDE LZFG_HAZMAT_FUNCTIONSD...          " Local class definition
