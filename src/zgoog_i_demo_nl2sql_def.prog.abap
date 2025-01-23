@@ -12,18 +12,31 @@
 *  See the License for the specific language governing permissions   *
 *  and limitations under the License.                                *
 **********************************************************************
-*******************************************************************
-*   System-defined Include-files.                                 *
-*******************************************************************
-  INCLUDE LZFG_HAZMAT_FUNCTIONSTOP.          " Global Declarations
-  INCLUDE LZFG_HAZMAT_FUNCTIONSUXX.          " Function Modules
 
-*******************************************************************
-*   User-defined Include-files (if necessary).                    *
-*******************************************************************
-* INCLUDE LZFG_HAZMAT_FUNCTIONSF...          " Subroutines
-* INCLUDE LZFG_HAZMAT_FUNCTIONSO...          " PBO-Modules
-* INCLUDE LZFG_HAZMAT_FUNCTIONSI...          " PAI-Modules
-* INCLUDE LZFG_HAZMAT_FUNCTIONSE...          " Events
-* INCLUDE LZFG_HAZMAT_FUNCTIONSP...          " Local class implement.
-* INCLUDE LZFG_HAZMAT_FUNCTIONST99.          " ABAP Unit tests
+DATA : gr_cont_prompt   TYPE REF TO cl_gui_custom_container,
+       gr_cont_response TYPE REF TO cl_gui_custom_container,
+       gr_text_prompt   TYPE REF TO cl_gui_textedit,
+       gr_text_response TYPE REF TO cl_gui_textedit,
+       gt_text_prompt   TYPE soli_tab,
+       p_model_key      TYPE /goog/model_key,
+       p_cds_view       TYPE ddlname.
+
+CLASS lcl_main DEFINITION.
+
+  PUBLIC SECTION.
+    CLASS-METHODS:
+      create_containers,
+      create_text_editors,
+      read_text_editor,
+      set_pf_status.
+
+  PRIVATE SECTION.
+    CLASS-METHODS:
+      execute,
+      convert_string_to_table
+        IMPORTING
+          iv_response      TYPE string
+        EXPORTING
+          et_text_response TYPE soli_tab.
+
+ENDCLASS.

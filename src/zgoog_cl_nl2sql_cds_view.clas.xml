@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZGOOG_CL_NL2SQL_CDS_VIEW</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>NL2SQL - Natural Language to SQL Generator</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_GENAI_MODEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Invoke Gemini AI Text and Multimodal Models</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>/GOOG/CX_SDK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP SDK for Google Cloud: Exception Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LOG_OBJ</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: Object name (Application code)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LOG_SUBOBJ</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Subobject</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_MODEL_KEY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Model Key</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GENERATE_SQL</CMPNAME>
+     <SCONAME>/GOOG/CX_SDK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP SDK for Google Cloud: Exception Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GENERATE_SQL</CMPNAME>
+     <SCONAME>IV_CDS_VIEW</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of a DDL Source</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
