@@ -18,4 +18,8 @@ By using the approach demonstrated in this sample, you can build your own AI pow
 ## Structured Output
 You can use the program ZGOOG_R_DEMO_STRUCT_OUTPUT to generate a generate structured output conforming to a JSON schema for unstructured inputs such as text and PDF. You can specify an OData Entity or any structure (flat / deep) to which the JSON output should be mapped or transformed. 
 
+Here's a example JSON output for a [PDF Purchase Order](https://github.com/google-cloud-abap/demo-po-so/blob/main/Sample%20Purchase%20Order%20Documents.zip) by using the JSON schema of type ZGOOG_CL_METADATA_SAMPLE=>TS_DEEP_ENTITY (included in this repo).
+
 ![alt_text](images/Structured_Output.png "Structured Output Screen")
+
+You can use the approach demonstrated here to convert various unstructured inputs into structured output. The generated output can be easily converted to ABAP format by using the method /UI2/CL_JSON=>DESERIALIZE
