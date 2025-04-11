@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZGOOG_CL_CONVERSATION_AGENT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Gemini powered multi-turn chat assistant</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_CONVERSATION_HISTORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clear conversation history for a session</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CONVERSATION_HISTORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get conversation history for the Conversation Session ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CONVERSATION_SESSION_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Session ID for the current conversation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TEXT_RESPONSE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Gemini text response in context with the history</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_GENERATIVE_MODEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Invoke Gemini AI Text and Multimodal Models</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_CONTENT_RESPONSE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Overall response from Gemini</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_CURRENT_CONVERSATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Content for current conversation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_CONVERSATION_HIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table to hold Conversation History</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_CONVERSATION_HISTORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Conversation History for the Session ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_MESSAGE_CONTENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message content to pass to Gemini</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_SESSION_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GUID based Session ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_TEXT_RESPONSE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>text response from Gemini</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SEND_MESSAGE_CONTENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Send input message content along with history to Gemini</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_CONVERSATION_HISTORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Store/Update conversation history</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CLEAR_CONVERSATION_HISTORY</CMPNAME>
+     <SCONAME>/GOOG/CX_SDK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP SDK for Google Cloud: Exception Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CLEAR_CONVERSATION_HISTORY</CMPNAME>
+     <SCONAME>IV_SESSION_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GUID based Session ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>/GOOG/CX_SDK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP SDK for Google Cloud: Exception Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LOG_OBJ</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application log: Object name (Application code)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LOG_SUBOBJ</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Subobject</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_MODEL_KEY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generative AI Large Language Model Key</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_SESSION_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GUID based Conversation Session ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONVERSATION_HISTORY</CMPNAME>
+     <SCONAME>ET_CONVERSATION_HISTORY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Conversation History in Parts</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONVERSATION_SESSION_ID</CMPNAME>
+     <SCONAME>/GOOG/CX_SDK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP SDK for Google Cloud: Exception Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONVERSATION_SESSION_ID</CMPNAME>
+     <SCONAME>RV_SESSION_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Conversation Session ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXT_RESPONSE</CMPNAME>
+     <SCONAME>EV_RESPONSE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gemini response</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_MESSAGE_CONTENT</CMPNAME>
+     <SCONAME>/GOOG/CX_SDK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP SDK for Google Cloud: Exception Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_MESSAGE_CONTENT</CMPNAME>
+     <SCONAME>IT_GCS_FILE_URIS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GCS uris of file, image or video data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_MESSAGE_CONTENT</CMPNAME>
+     <SCONAME>IT_RAW_FILE_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Raw file, image or video data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_MESSAGE_CONTENT</CMPNAME>
+     <SCONAME>IV_PROMPT_TEXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Input prompt text</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_MESSAGE_CONTENT</CMPNAME>
+     <SCONAME>RO_CONVERSATION_AGENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gemini powered multi-turn chat assistant</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_CONVERSATION_HISTORY</CMPNAME>
+     <SCONAME>/GOOG/CX_SDK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP SDK for Google Cloud: Exception Class</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
