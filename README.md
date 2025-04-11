@@ -23,3 +23,7 @@ Here's a example JSON output for a [PDF Purchase Order](https://github.com/googl
 ![alt_text](images/Structured_Output.png "Structured Output Screen")
 
 You can use the approach demonstrated here to convert various unstructured inputs into structured output. The generated output can be easily converted to ABAP format by using the method /UI2/CL_JSON=>DESERIALIZE
+
+## Gemini powered Conversation Agent
+You can use the class ZGOOG_CL_CONVERSATION_AGENT to build GenAI based SAP conversation agents to perform multi turn chat-like conversation powered by Gemini, for a sequence of user prompts. The solution takes into account the history of the conversation for each new prompt and invokes Gemini with the context of the history to respond. The solution tracks the conversation sessions though GUID based session ids, and saves the conversation history against these session ids in table ZGOOG_CONV_HIST shipped with the solution.
+
