@@ -124,7 +124,12 @@ ENDTRY.
 
 ## 🤖 A simple ABAP Agent
 
-The new ABAP package [ZGOOG_AGENT_EXAMPLES](https://github.com/GoogleCloudPlatform/sap-genai-samples/tree/main/src/zgoog_agent_examples) demonstrates building AI "Agents" within SAP using ABAP and the Google Cloud Vertex AI SDK. This initial framework allows agents to understand instructions and utilize ABAP Function Modules as "tools" for tasks like fetching weather and air quality data (future extension). Find the code on GitHub and learn more on the blog: [Link to Blog Post]. The next steps involve exploring agent hand-offs and integration with Google's Agent Development Kit. Please reach out if you wish to contribute.
+The new ABAP package [ZGOOG_AGENT_EXAMPLES](https://github.com/GoogleCloudPlatform/sap-genai-samples/tree/main/src/zgoog_agent_examples) demonstrates building AI "Agents" within SAP using ABAP and the Google Cloud Vertex AI SDK. This initial framework allows agents to understand instructions and utilize ABAP Function Modules as "tools" for tasks like fetching weather and air quality data (future extension). Find the code on GitHub and learn more on the blog: [Link to Blog Post]. The next steps involve exploring agent hand-offs and integration with Google's Agent Development Kit.
+
+<img width="746" alt="image" src="https://github.com/user-attachments/assets/1120af4d-c5d4-4fb4-b19e-634553a19701" />
+
+Please reach out if you wish to contribute to the agent framework and stay tuned for more exciting stuff!!!
+
 
 
 
