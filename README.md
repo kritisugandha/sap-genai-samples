@@ -100,9 +100,9 @@ DATA:
 
 TRY.
     IF p_sessid IS INITIAL.
-      DATA(lo_conversation_agent) = NEW zgoog_cl_conversation_agent( iv_model_key = 'gemini-flash' ).
+      DATA(lo_conversation_agent) = NEW zgoog_cl_conversation_agent( iv_model_key = '<SDK_MODEL_KEY>' ).
     ELSE.
-      lo_conversation_agent = NEW zgoog_cl_conversation_agent( iv_model_key  = 'gemini-flash'
+      lo_conversation_agent = NEW zgoog_cl_conversation_agent( iv_model_key  = '<SDK_MODEL_KEY>'
                                                                iv_session_id = p_sessid ).
 
     ENDIF.
