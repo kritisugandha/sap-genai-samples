@@ -84,7 +84,7 @@ You can also extend the class to create your own class for building conversation
 ## Error and exception handling
 ​​You can leverage ABAP SDK exception class /GOOG/CX_SDK to catch errors and exceptions raised by the methods of the conversation agent class ZGOOG_CL_CONVERSATION_AGENT.
 
-## A sample invocation
+## Sample invocation
 Below is a sample code of a report program to hold conversations based on session ids. 
 * If you would like to start a conversation, execute the report program without providing the session id,
 * If you would like to do a follow on conversation, execute the report program with the session id of the previous conversation.
