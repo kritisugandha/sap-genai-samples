@@ -10,7 +10,7 @@
    <FUNCTIONS>
     <item>
      <FUNCNAME>Z_TOOL_GET_AIR_QUALITY</FUNCNAME>
-     <SHORT_TEXT>Get Current Location</SHORT_TEXT>
+     <SHORT_TEXT>Get Air Quality for a location</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>IT_FUNCTION_PARAMETERS</PARAMETER>

@@ -17,7 +17,7 @@ REPORT zdemo_use_weather_agent.
 " -----------------------------------------------------------------------
 " Selection Screen
 " -----------------------------------------------------------------------
-PARAMETERS p_prompt TYPE string DEFAULT 'What is the air quality like in Bengaluru?' LOWER CASE.
+PARAMETERS p_prompt TYPE string DEFAULT 'What is the air quality in my current location?' LOWER CASE.
 
 " -----------------------------------------------------------------------
 " Main Processing Block
