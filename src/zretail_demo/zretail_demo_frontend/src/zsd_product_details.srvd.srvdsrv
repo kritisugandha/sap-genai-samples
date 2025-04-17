@@ -1,0 +1,5 @@
+@EndUserText.label: 'Product Search'
+define service ZSD_PRODUCT_DETAILS {
+  expose ZCE_PRODUCT_READ;
+  expose ZCE_PRODUCT_REVIEWS;
+}

@@ -1,0 +1,34 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Gemini Retail Search Assistant for SAP",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+  },
+  "ui5AppDetails": {
+    "appId": "google.zproductsearch"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_B37C68B40B7D17CCF1B4437B86E414A4E844F73E_TM",
+    "semanticObject": "ZPRODUCTSEARCH",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_B37C68B40B7D17CCF1B4437B86E414A4E844F73E_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Gemini Retail Search Assistant for SAP",
+        "subtitle": "Product Search"
+      }
+    }
+  ]
+}
