@@ -131,8 +131,11 @@ The new ABAP package [ZGOOG_AGENT_EXAMPLES](https://github.com/GoogleCloudPlatfo
 Please reach out if you wish to contribute to the agent framework and stay tuned for more exciting stuff!!!
 
 
+## ABAP RAP Agent for SAP Business Processes🤖
 
+Check out the package [ZGOOG_DEMO_RAP_AGENT](https://github.com/GoogleCloudPlatform/sap-genai-samples/tree/main/src/ZGOOG_DEMO_RAP_AGENT) to learn how you can build AI Agents that can automatically call ABAP RAP APIs to perform various business process actions in SAP ERP systems. Find the code on GitHub and learn more on the blog: [Link to Blog Post](https://medium.com/@uajith/abap-rap-agents-ceba63797ade). 
 
+![alt_text](images/RAP_agent.png "RAP Agent Screen")
 
 
 
