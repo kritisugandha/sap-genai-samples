@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_GOOG_RAP_GENERATIVE_MODEL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>RAP Generative Model</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Error During Functiion Call</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_RAP_TOOLS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table for defining agent tools (ABAP Functions/Methods)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>RAP_CALL</CMPNAME>
+     <SCONAME>IT_FUNCTION_PARAMETERS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Call Parameters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_RAP_TOOLS</CMPNAME>
+     <SCONAME>IT_RAP_TOOLS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table for defining agent tools (ABAP Functions/Methods)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
