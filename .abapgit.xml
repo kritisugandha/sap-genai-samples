@@ -11,7 +11,7 @@
     <item>/README.md</item>
     <item>/*.md</item>
     <item>/*.pdf</item>
-    <item>/*/.abapgit.xml</item>
+    <item>/*/ZGOOG_DEMO_RAP_AGENT/.abapgit.xml</item>
    </IGNORE>
   </DATA>
  </asx:values>
